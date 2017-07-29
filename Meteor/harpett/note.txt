@@ -1,0 +1,20 @@
+QuestionList.insert({
+  qName: 'TVM', section: 4, qFunction: 'qNPV()'
+});
+QuestionList.insert({
+  qName: 'EAR', section: 5, qFunction: 'qNPV()'
+});
+QuestionList.insert({
+  qName: 'CAPM', section: 8, qFunction: 'qNPV()'
+});
+QuestionList.insert({
+  qName: 'IRR', section: 9, qFunction: 'qIRR()'
+});
+
+
+#I also have a number of packages that needs to be installed
+easy peasy - to see what packages are installed just use: 
+meteor list
+
+
+!!Don't forget to remove the ability of a client to modify

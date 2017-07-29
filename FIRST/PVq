@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+	<head>
+		<title> Harnett </title>
+		<link href="style.css" rel="stylesheet" type="text/css" >
+	</head>
+
+	<body>
+		<header>
+		<h1> Harnett </h1>
+		<h2> Harnessing the Power of EdTech</h2>
+
+		<nav>
+			<a href='index.html'>Home</a> |
+			<a href='dead'>FAQ</a> |
+			<a href='dead'>Support</a> 
+		</nav>
+		</header>
+
+		<main>
+		<h2> ________________________________________________________________________</h2>
+
+		<h3> Computing PV </h3>
+		
+		
+		<main>
+			<section class="question">
+				
+			</section>
+
+			<section class="answer-input">
+				<p>Write your answer:</p>
+				<input type="text"><button>+</button>
+			</section>
+
+			<section class="answer">
+
+			</section>
+	
+			<a href='PVq'>Click for a new question.</a>
+		</main>
+
+
+		<footer>
+
+
+			<div class="sitemap">
+				<h5>Sitemap</h5>
+				<ul>
+					<li><a href='index.html'>Home</a></li>
+					<li><a href='dead'>About Us</a> </li>
+					<li><a href='dead'>FAQ</a> </li>
+					<li><a href='dead'>Support</a> </li>
+				</ul>
+			</div>
+		</footer>
+
+		<script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
+		<script src="app.js"></script>
+	</body>
+</html>

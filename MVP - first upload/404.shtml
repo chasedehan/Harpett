@@ -1,0 +1,264 @@
+<!DOCTYPE HTML>
+<!--
+	Twenty by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+
+	Once launched the license will be purchased.
+-->
+<html>
+	<head>
+		<title>Harpett - 404 Not Found</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+	</head>
+	<body class="index">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<header id="header" class="alt">
+					<h1 id="logo"><a href="index.html">Harpett <span>helps you study</span></a></h1>
+					<nav id="nav">
+						<ul>
+							<!--<li class="current"><a href="index.html">Welcome</a></li> -->
+							<li><a href="busFinance.html">Business Finance</a></li>
+							<li><a href="signUp.html" class="button special">Sign Up</a></li>
+						</ul>
+					</nav>
+				</header>
+
+			<!-- Banner -->
+				<section id="banner">
+					<!--
+						".inner" is set up as an inline-block so it automatically expands
+						in both directions to fit whatever's inside it. This means it won't
+						automatically wrap lines, so be sure to use line breaks where
+						appropriate (<br />).
+					-->
+					<div class="inner">
+
+						<header>
+							<h2>404 Not Found</h2>
+						</header>
+						<p><strong>Sorry</strong>, that page doesn't
+						<br />exist. So we brought 
+						<br />you back to the landing page.
+
+					</div>
+
+				</section>
+
+			<!-- Main -->
+				<article id="main">
+
+					<header class="special container">
+						<span class="icon fa-bar-chart-o"></span>
+						<h2>You can beat your head against the wall, or you can 
+						<br />
+						study with superior technology. </h2>
+						<p>Many universities and instructors do not embrace technology or provide many
+						<br />
+						resources to succeed outside of class.  <strong>That's where we come in.</strong></p>
+					</header>
+
+					<!-- Three -->
+						<section class="wrapper style3 container special">
+
+							<header class="major">
+								<h2>So what kind of <strong>cool stuff</strong> do we offer?</h2>
+							</header>
+
+							<div class="row">
+								<div class="6u 12u(narrower)">
+
+									<section>
+										<a href="practice.html" class="image featured"><img src="images/on laptop.jpeg" alt="" /></a>
+										<header>
+											<h3>Practice Problems</h3>
+										</header>
+										<p>Where we started - we have an unlimited supply of practice problems to help you succeed in passing your course. </p>
+									</section>
+
+								</div>
+								<div class="6u 12u(narrower)">
+
+									<section>
+										<a href="practice.html" class="image featured"><img src="images/videoCamera.jpeg" alt="" /></a>
+										<header>
+											<h3>Videos of Problems</h3>
+										</header>
+										<p>Great, so now you have those practice problems. But what do you do if you can't figure it out?  Well, we have linked videos of a professor 
+										working through similar problems if you are struggling.
+										</p>
+									</section>
+
+								</div>
+							</div>
+							<div class="row">
+								<div class="6u 12u(narrower)">
+
+									<section>
+										<a href="video.html" class="image featured"><img src="images/professor.jpeg" alt="" /></a>
+										<header>
+											<h3>Lecture Videos</h3>
+										</header>
+										<p>Ever borrowed notes from a friend?  How'd that work out?  We have videos that cover nearly all the content in a course.</p>
+									</section>
+
+								</div>
+								<div class="6u 12u(narrower)">
+
+									<section>
+										<a href="quiz.html" class="image featured"><img src="images/librarySmall.jpg" alt="" /></a>
+										<header>
+											<h3>Practice Quizzes</h3>
+										</header>
+										<p>Once you feel like you have figured things out, you can take a practice quiz to see how well you actually know the material.</p>
+									</section>
+
+								</div>
+							</div>
+							<div class="row">
+								<div class="6u 12u(narrower)">
+
+									<section>
+										<a href="book.html" class="image featured"><img src="images/books.jpeg" alt="" /></a>
+										<header>
+											<h3>Open Textbooks</h3>
+										</header>
+										<p>Textbooks are expensive and we have located many open/free resources to coincide with the lectures and practice problems. </p>
+									</section>
+
+								</div>
+								<div class="6u 12u(narrower)">
+
+									<section>
+										<a href="contact.html" class="image featured"><img src="images/stars.jpeg" alt="" /></a>
+										<header>
+											<h3>what else?</h3>
+										</header>
+										<p>What else do you think you need?  Let us know, we might be able to make it a reality.</p>
+									</section>
+
+								</div>
+							</div>
+
+							<footer class="major">
+								<ul class="buttons">
+									<li><a href="busFinance.html" class="button">So Let's Get Started</a></li>
+								</ul>
+							</footer>
+
+						</section>
+
+				</article>
+
+			<!-- CTA -->
+				<section id="cta">
+
+					<header>
+						<h2>Harpett is <strong>Brand New</strong></h2>
+						<p>We are adding new content daily and are working feverishly to make it happen.  
+						<br />But, keep in mind that it is <strong>free</strong></p>
+						<p> We are here to serve you, the student, so <strong>please</strong> tell us what you want!</p>
+					</header>
+					<footer>
+					<!--<ul class="buttons">
+							<li><a href="#" class="button special">Take My Money</a></li>
+							<li><a href="#" class="button">LOL Wut</a></li>
+						</ul>
+					-->
+					</footer>
+
+				</section>
+
+			<!--  Provide Feedback Section -->
+
+					<header class="special container">
+						<span class="icon fa-envelope"></span>
+						<h2>Give us a piece of your mind!</h2>
+						<p>Want us to cover another class? Found a bug? Or comments for improvement?<br>
+						We want to hear anything you might have to say, so let it out.</p>
+					</header>
+
+					<!-- One -->
+						<section class="wrapper style4 special container 75%">
+
+							<!-- Content 
+							The contact form on the bottom
+							This should work, but I wont know until its up on the server-->
+								<div class="content">
+									<form action="http://formspree.io/chasedehan@yahoo.com" method="post">
+										<div class="row 50%">
+											<div class="6u 12u(mobile)">
+												<input type="text" name="name" placeholder="Name" />
+											</div>
+											<div class="6u 12u(mobile)">
+												<input type="text" name="email" placeholder="Email" />
+											</div>
+										</div>
+										<div class="row 50%">
+											<div class="12u">
+												<input type="text" name="university" placeholder="University" />
+											</div>
+										</div>
+										<div class="row 50%">
+											<div class="12u">
+												<input type="text" name="subject" placeholder="Subject" />
+											</div>
+										</div>
+										<div class="row 50%">
+											<div class="12u">
+												<textarea name="message" placeholder="Message" rows="7"></textarea>
+											</div>
+										</div>
+										<div class="row">
+											<div class="12u">
+												<ul class="buttons">
+													<li><input type="submit" class="special" value="Send" /></li>
+												</ul>
+											</div>
+										</div>
+									</form>
+								</div>
+
+						</section>
+
+				</article>
+
+
+			<!-- Footer -->
+				<footer id="footer">
+				<!--	
+					<ul class="icons">
+						<li><a href="#" class="icon circle fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="#" class="icon circle fa-facebook"><span class="label">Facebook</span></a></li>
+						<li><a href="#" class="icon circle fa-google-plus"><span class="label">Google+</span></a></li>
+						<li><a href="#" class="icon circle fa-github"><span class="label">Github</span></a></li>
+						<li><a href="#" class="icon circle fa-dribbble"><span class="label">Dribbble</span></a></li>
+					</ul>
+				-->
+					<ul class="copyright">
+						<li>&copy; Harpett</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+
+				</footer>
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollgress.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

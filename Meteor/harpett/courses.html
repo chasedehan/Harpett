@@ -1,0 +1,70 @@
+<!-- This file includes the basic course navigation and dashboard -->
+
+<template name ="dashboard">
+	<section class="wrapper style4 container">
+		<div class="row 150%">
+			<div class="8u 12u(narrower) important(narrower)"> <!-- Main Content -->
+					<div class="content">
+						<section>
+							<header>
+								<h3><strong>Welcome</strong> - Course Dashboard</h3>
+							</header>
+							<a href="#" class="image featured"><img src="/images/on laptop.jpeg" alt="" /></a>
+							<p>Welcome to your Dashboard where you can select from a list of available courses.</p>
+							<p>This is designed to provide you with all the resources you need to succeed in your classes.  On the left you will see a listing of all the courses we currently offer.</p>
+							<p>If you do not see a class you are interested in, please take the time to contact us.</p>
+						</section>
+					</div><!-- Content -->
+			</div>
+			<div class="4u 12u(narrower)">	<!--Populates the list of courses available -->
+				<div class="sidebar">
+					<header><h3>Courses</h3></header> 
+						<ul>
+							{{#each course}}
+								<li><a href="{{pathFor route='courseHome'}}" class="button">{{name}}</a></li>
+								<!--calls the page with "courses/name"-->
+							{{/each}}
+						</ul> 
+				</div> <!-- Sidebar -->
+			</div>
+		</div>
+	</section>
+	{{> provideFeedback}}
+</template> <!-- dashboard -->
+
+<template name="courseHome">
+	<a href="{{pathFor route='dashboard'}}"><strong>Back</strong></a>
+	<section class="wrapper style4 container">
+		<div class="row 150%">
+			<div class="8u 12u(narrower)"> <!-- Main content-->
+					<div class="content">
+						<section>
+							<header>
+								<h2><strong>{{name}} -</strong> Home</h2>
+							</header>
+							<a href="#" class="image featured"><img src="/images/{{name}}.jpeg" alt="" /></a>
+							<p>Welcome to the home of {{name}}.  This is your landing page that contains all the material you may have questions about</p>
+							<p>On the right and the toolbar at the top of the page you will find the links to the content for the course. </p>
+							<p>Remember, we are a startup and are continually building content so check back or sign up for our mailing list for alerts as to our progress.</p>
+						</section>
+					</div><!-- Content -->
+			</div>
+			<div class="4u 12u(narrower)">	<!--Button Links for content-->
+				<div class="sidebar">
+					<header><h3>Content</h3></header>
+						<ul>
+							<li><a href="/practice/{{name}}" class="button">Let's work Problems</a></li>
+							<li><p></p></li>
+							<li><a href="/videos/{{name}}" class="button">Let's Watch Lectures</a></li>
+							<li><p></p></li>
+							<li><a href="/quiz/{{name}}" class="button">Quiz Me</a></li>
+							<li><p></p></li>
+							<li><a href="/otherContent/{{name}}" class="button">Other Resources</a></li>
+						</ul>
+				</div> <!-- Sidebar -->
+			</div>
+		</div>
+	</section>
+	{{> provideFeedback}}
+</template> <!-- courseHome -->
+

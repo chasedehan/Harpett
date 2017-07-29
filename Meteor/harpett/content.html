@@ -1,0 +1,76 @@
+<!-- Content for each of the courses will go here -->
+
+<template name="otherContent">
+	<h2>Other Content for {{name}} can be found here</h2>
+</template>
+
+<template name="videos">
+	<a href="{{pathFor route='courseHome'}}"><strong>Back</strong></a>		
+	<h2>Videos go here for {{name}}</h2>
+	<section class="wrapper style4 container">
+		<div class="row 150%">	
+			<div class="4u 12u(narrower)">	
+			<!-- Need to include a helper to pull the appropriate course -->
+				{{#each videoListings}}
+					<a href="{{link}}" target='_blank' class='button'>{{listName}}</a> <!-- need to change the class of this li to a pretty button type -->
+				{{/each}}
+			</div>
+			<div class="8u 12u(narrower) important(narrower)">
+				<header>
+					<h3>Video Playlists - <strong>{{name}}</strong></h3>
+				</header>
+				<p>On the left you will see the sections of the {{name}} course.  When you click on 
+				the link it will take you to the appropriate content playlist</p>
+				<p>If you find some additional videos that find helpful please let us know</p>
+			</div>
+		</div>
+	</section>
+</template>
+
+
+<template name="quiz">
+	<h2>Here are Quizzes for {{name}}</h2>
+</template>
+
+
+
+<template name ="practice">
+<h2> Practice for {{name}}</h2>
+	<section class="wrapper style4 container">
+		<div class="row 150%">
+		
+		{{> practiceContent}}
+		</div>
+	</section>
+</template>
+
+<template name="practiceContent"> <!--is the section where a user clicks on the question they want to see -->
+	<div class="4u 12u(narrower)">
+		<ul>
+			{{#each qListings}}
+				<li class = "button large">{{qName}}</li><br> <!-- need to change the class of this li to a pretty button type -->
+			{{/each}}
+		</ul>
+	</div>
+	<div class="8u 12u(narrower) important(narrower)">
+		<div class="welcome"> <!-- welcome screen that goes away after clicks. -->
+			<!-- <a href="#" class="image featured"><img src="on laptop.jpeg" alt=""/></a> -->
+			<header>
+				<h3>Practice Problems</h3>
+			</header>
+			<p>On the left you will see the sections of the {{name}} course.  There are an unlimited supply of questions created through algorithms that randomly assign the values to each question.  We promise you will not run out of problems</p>
+			<p>If you get a question incorrect, you will be provided the option to watch some videos to help you figure out how to do them.</p>
+			<p>And then, once you feel comfortable, you can take a <a href="/quiz/{{name}}">practice quiz</a> to see how well you retain it.</p>
+			<p> <strong>The last problem you worked was: </strong></p>
+		</div> <!--welcome-->
+		<div>
+			{{#each popContent}}
+				{{qWords}}<br> And the correct answer is: {{correct}}
+			{{/each}}
+			<br>
+		</div>
+		<div class="answer-input"></div>
+		<div class="question-results"></div>
+		<div class="additional-content"></div>
+	</div>
+</template>

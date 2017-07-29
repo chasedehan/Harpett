@@ -1,0 +1,93 @@
+
+
+body {
+	background: lightcyan;
+	width: 1080px;
+	margin: auto;
+}
+
+h1, h2, nav {
+	color: maroon;
+	text-align: center;
+}
+
+h1 {
+	font-size: 2.5em;
+	padding: 0;
+}
+
+h5 {
+	color: maroon;
+}
+
+footer {
+	color:black;
+	width: 900px;
+	margin: auto;
+	padding: 0;
+}
+
+.tabs a span {
+	display: inline-block;
+	border-radius: 5px 5px 0 0;
+	width: 100px;
+	margin-right: 10px;
+	text-align: center;
+	background: maroon;
+	color: lightcyan;
+	padding: 5px;
+}
+
+.tabs a span.active {
+	background: #ddd;
+	color: maroon;
+}
+
+}
+div.sitemap {
+	width: 200px;
+	margin: 0;
+	padding: 0;
+	float: right;
+	color: maroon;
+}
+
+div.contact {
+	width: 600px;
+	margin: 0;
+	float: left;
+	color: maroon;
+	padding:0;
+}
+
+p.contact {
+	margin:0;
+}
+
+div.listing {
+	background: #ddd;
+	width: 360px;
+	height: 540px;
+	float: left;
+}
+
+div.content {
+	margin: 0;
+	width: 720px;
+	height: 540px;
+	float: right;
+	font-size: 1.2em;
+	background: #ddd;
+	overflow-y: scroll;
+}
+
+div.calc-input {
+	width: 200px;
+	float: left;
+}
+
+div.results {
+	margin: 0;
+	float: right;
+	font-size: 1.5em;
+}

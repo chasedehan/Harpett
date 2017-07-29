@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+	<head>
+		<title> Harnett </title>
+		<link href="style.css" rel="stylesheet" type="text/css" >
+	</head>
+
+	<body>
+		<header>
+		<h1> Harnett </h1>
+		<h2> Harnessing the Power of EdTech</h2>
+
+		<nav>
+			<a href='index.html'>Home</a> |
+			<a href='dead'>FAQ</a> |
+			<a href='Support'>Support</a> 
+		</nav>
+		</header>
+
+		<main>
+		<h2> ________________________________________________________________________</h2>
+		
+		<h3> Sorry, this is a dead link or the page has yet to be completed.</h3>
+	</body>
+</html>

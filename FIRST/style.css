@@ -1,0 +1,62 @@
+
+.answer_input span:hover {
+	cursor: pointer;
+}
+
+body {
+	background: lightcyan;
+	width: 1080px;
+	margin: auto;
+}
+
+h1 {
+	color: maroon;
+	text-align: center;
+}
+
+h2 {
+	color: maroon;
+	text-align: center;
+}
+
+p.first{
+	color: grey;
+	text-align: center;
+	border: 2px solid maroon;
+	padding: 4px;
+	font-size: 1.2em;
+}
+
+p.second {
+	color:grey;
+}
+
+footer {
+	color:green;
+	width: 500px;
+	margin: auto;
+	background: lightgrey;
+}
+
+div.question-index {
+	width: 200px;
+	float: left;
+}
+
+div.problem {
+	margin: 0;
+	float: right;
+}
+div.sitemap {
+	width: 200px;
+	float: right;
+}
+
+div.contact {
+	margin: 0;
+	float: left;
+}
+
+p.contact {
+	margin:0;
+}
